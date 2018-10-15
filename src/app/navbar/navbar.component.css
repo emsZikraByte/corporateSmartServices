@@ -1,0 +1,38 @@
+.navbar{
+    box-shadow: 1.75px 2px 5px yellow;
+
+    }
+    
+    .navbar .nav-item{
+    font-size: 18px;
+    padding-right: 15px;
+    font-weight: 600;
+    
+    }
+    
+    nav{
+        /* border-bottom:1px solid yellow; */
+        text-transform: uppercase;
+        /* font-style: bold; */
+    }
+    
+    .navbar-red{
+        background-color: rgb(215, 83, 90);
+        /* color: #fff; */
+    }
+    
+    /* .nav-item.active{
+        border-left: #fff 3px solid;
+    } */
+    
+    #home{
+        overflow-x: hidden;
+    }
+    
+    #navbarNav ul li a:hover {
+    /* background: lightpink;        */
+    /* color:  rgb(215, 83, 90); */
+    cursor: pointer;
+    /* border-radius: 5%; */
+    /* color: rgba(255, 30, 0, 0.904); */
+    }

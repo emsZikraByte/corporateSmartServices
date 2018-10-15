@@ -1,0 +1,39 @@
+<div class="mt-0">
+  <nav class="navbar navbar-expand-sm navbar-light bg-dark fixed-top py-3">
+    <div class="container">
+      <a href="#" class="navbar-brand">
+        <!-- <img src="#" width="50" height="50"  alt="LOGO">  -->
+        <h2 class="d-inline align-middle text-light">Events</h2>
+      </a>
+  
+      <button class="navbar-toggler  mr-5" type="button" data-toggle="collapse" data-target="#navbarNav">
+        <span class="navbar-toggler-icon btn btn-outline-light"></span>
+      </button>
+  
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto text-light">
+          <li class="nav-item active">
+            <a class="nav-link text-light"  (click)="navigateToHome()">Home</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link text-light" (click)="navigateToAboutUs()">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light"
+            (click)="navigateToServices()"
+            >Our Services</a>
+          </li>
+          <li class="nav-item">
+                <a class="nav-link text-light" (click)="navigateToUpcoming()">Upcoming Events</a>
+          </li>
+          <li class="nav-item">
+                  <a type="link" 
+                   class="nav-link text-light mr-0"
+                   (click)="navigateToContactUs()"
+                   >Contact Us</a>
+            </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  </div>

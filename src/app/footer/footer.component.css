@@ -1,0 +1,48 @@
+.bgPrimary{
+    background-color: rgb(56,155,194);
+}
+
+/* footer ul li :hover {
+background-color: #fff;
+color: rgb(255, 75, 110);
+/* padding: 25%; */
+/* padding: 10%; */
+
+/* } */
+footer ul li:hover{
+    background-color: rgb(56,155,194);
+    /* padding:  */
+/* rgb(255, 75, 110); */
+    color:  #fff;
+    border-radius: 50%;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+.text-light{
+    color: #fff;
+}
+
+
+footer ul li {
+    background-color: #fff;
+    /* padding:  */
+    color: rgb(56, 155, 194);
+    border-radius: 50%;
+
+}
+
+transition {
+    transform: background-color 0.2s, color 0.2s, border-radius 0.2s;
+}
+
+
+
+
+
+
+
+
+
+

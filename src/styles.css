@@ -1,0 +1,1212 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~ngx-toastr/toastr.css';
+@import "~bootstrap/dist/css/bootstrap.css";
+@import "~font-awesome/css/font-awesome.css";
+/* @import url('https://fonts.googleapis.com/css?family=Roboto'); */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+@media (min-width:575px) {
+    
+      h2{
+          font-size: 1rem;
+      }
+
+    /* .carousel-caption {
+        transform: translateY(-30%);
+        bottom: 0;
+        top: 20%;
+      } */
+}
+
+
+
+
+html{
+    overflow-x: hidden;
+}
+
+body, html {
+    font-family: 'Roboto';
+    font-weight: 300;
+  }
+
+
+/* about-us carousel indicators icons  START*/
+  span.carousel-control-next-icon:hover{
+    cursor: pointer;
+}
+span.carousel-control-prev-icon:hover{
+    cursor: pointer;
+} 
+/* about-us carousel indicators icons  END*/
+/* //iphone 5s */
+  @media (min-width:300px){
+    
+    #aboutUsText{
+        font-size:1rem;
+    }
+
+
+    #subSliderOne{
+        height:40vh;
+    }
+    #subSliderTwo{
+        height:40vh;
+    }
+    #subSliderThree{
+        height:40vh;
+    }
+
+
+    #mainSlideOne {
+        height: 40vh;
+        background-position:100% 100%;
+        background-size: contain;
+        background-repeat:no-repeat;
+        /* background-position:center;  */
+        opacity:0.6;
+    }
+
+    #mainSlideTwo {
+        /* padding-top: 4.5rem; */
+        height: 40vh;
+        background-position:100% 100%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        opacity: 0.6;
+    }
+
+    #mainSlideThree {
+        height: 40vh;
+        background-position:100% 100%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        opacity: 0.6;
+    }
+
+
+    #sobh{background-color: black;}
+    
+    #mainHeadingOne{
+        font-size: 0.9rem;
+        margin-left:-16%;
+        letter-spacing: 0.5px;
+    }
+
+    #mainHeadingOneee {
+        font: size 0.6rem;
+        margin-left:-20%;
+    }  
+  
+    /* #mainCaption #mainHeadingOneee {
+        transform: translateY(-20%);
+        bottom: 0;
+        top: 55%;
+    } */
+
+
+    #mainHeading{
+        font-size: 0.9rem;
+        letter-spacing: 1.5px;
+    }
+
+    #mainCaption {
+        transform: translateY(-5%);
+        bottom: 0;
+        top: 50%;
+      }
+      #mainParagraph {
+        font-size: 1.2rem;
+        letter-spacing: 1.2px;
+    }
+
+
+      #subCarousel{
+          margin-bottom: 11.6%;
+      }
+
+      #mainParagraph{
+
+      }
+
+      #serv {
+        margin-bottom: 2.5rem;
+        flex-direction:column;
+        /* justify-content:center; */
+        text-align: center;
+    }
+
+    #servo {
+        flex-direction: column;
+        text-align:center;
+    }
+
+    #serviceImage {
+        margin-top: 1rem;
+        margin-bottom: 0.4rem;
+    }
+
+    
+    #advisoryBoard{
+        margin-left: 1.4rem;
+    }
+
+     #executiveBoard{
+        margin-left: -0.5rem;
+    }
+
+    #advisiorysText{
+        margin-left:1.5rem;
+    }
+
+    /* #projoImg{
+        margin-right:4rem; */
+    /* }   */ 
+
+}
+
+
+/* galaxy S5 */
+  @media (min-width:360px){
+     
+    #aboutUsText{
+        font-size:1rem;
+    }
+
+    #subSliderOne{
+        height:40vh;
+    }
+    #subSliderTwo{
+        height:40vh;
+    }
+    #subSliderThree{
+        height:40vh;
+    }
+
+
+    #mainSlideOne {
+        height: 38vh;
+        background-position:100% 100%;
+        background-size: contain;
+        background-repeat:no-repeat;
+        /* background-position:center;  */
+        opacity:0.6;
+    }
+
+    #mainSlideTwo {
+        /* padding-top: 4.5rem; */
+        height: 38vh;
+        background-position:100% 100%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        opacity: 0.6;
+    }
+
+    #mainSlideThree {
+        height: 38vh;
+        background-position:100% 100%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        opacity: 0.6;
+    }
+
+
+    #sobh{background-color: blue;}
+
+    #mainHeadingOne{
+        font-size: 0.9rem;
+        margin-left:-8%;
+        letter-spacing: 0.5px;
+    }
+
+    #mainHeading{
+        font-size: 1rem;
+        letter-spacing: 1.5px;
+    }
+    #mainParagraph {
+        font-size: 1.2rem;
+        letter-spacing: 1.5px;
+    }
+
+    #mainCaption {
+        transform: translateY(-5%);
+        bottom: 0;
+        top: 50%;
+      }
+
+      #subCarousel{
+        margin-bottom: 10%;
+
+    }
+
+    #serv {
+        margin-bottom: 2.5rem;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #servo {
+        flex-direction: column;
+        text-align:center;
+    }
+
+    #serviceImage {
+        margin-top: 1rem;
+        margin-bottom: 0.4rem;
+    }
+
+   
+    #advisoryBoard{
+        margin-left: 2.5 rem;
+    }
+
+    /* #executiveBoard{
+        margin-left: 3.5rem;
+    }
+
+    #projoImg{
+        margin-right:4rem;
+    }   */
+
+    
+    #advisiorysText{
+        margin-left:1.5rem;
+    }
+
+}
+ 
+
+
+/* IPhone6/7/8 */
+@media (min-width:375px){
+
+    #aboutUsText{
+        font-size:1rem;
+    }
+
+    #subSliderOne{
+        height:40vh;
+    }
+    #subSliderTwo{
+        height:40vh;
+    }
+    #subSliderThree{
+        height:40vh;
+    }
+
+    #mainSlideOne {
+        padding-top:15rem;
+        height: 31vh;
+        background-position:100% 100%;
+        background-size: contain;
+        background-repeat:no-repeat;
+        /* background-position:center;  */
+        opacity:0.6;
+    }
+
+    #mainSlideTwo {
+        padding-top: 15rem;
+        height: 31vh;
+        background-position:100% 100%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        opacity: 0.6;
+    }
+
+    #mainSlideThree {
+        padding-top:15rem;
+        height: 31vh;
+        background-position:100% 100%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        opacity: 0.6;
+    }
+
+    #sobh{background-color: blue;}
+
+    #mainHeadingOne{
+        font-size: 1rem;
+        margin-left:-13%;
+        letter-spacing: 0.5px;
+    }
+
+    #mainHeading{
+        font-size: 1rem;
+        letter-spacing: 1.5px;
+    }
+
+    #mainParagraph {
+        font-size: 1.2rem;
+        letter-spacing: 1.5px;
+    }
+
+    #mainCaption {
+        transform: translateY(-10%);
+        bottom: 0;
+        top: 50%;
+      }
+
+      #subCarousel{
+        margin-bottom: 10%;
+
+    }
+
+    #serv {
+        /* margin-bottom: 2.5rem; */
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #servo{
+        flex-direction: column;
+        text-align:center;
+    }
+
+    #serviceImage {
+        margin-top: 1rem;
+        margin-bottom: 0.4rem;
+    }
+
+    
+    #advisoryBoard{
+        margin-left: 3.2rem;
+    }
+
+     #executiveBoard{
+        margin-left: 0px;
+    }
+
+    /* #projoImg{ */
+        /* margin-right:4rem; */
+    /* }    */
+
+    
+    #advisiorysText{
+        margin-left:1.5rem;
+    }
+}
+
+  
+  /* pixel 2 */
+  @media (min-width:410px){
+    
+    #aboutUsText{
+        font-size:1rem;
+    }
+
+    #subSliderOne{
+        height:40vh;
+    }
+    #subSliderTwo{
+        height:40vh;
+    }
+    #subSliderThree{
+        height:40vh;
+    }
+    
+    #mainSlideOne {
+
+        height: 32vh;
+        background-position:100% 100%;
+        background-size: contain;
+        background-repeat:no-repeat;
+        /* background-position:center;  */
+        opacity:0.6;
+    }
+
+    #mainSlideTwo {
+        /* padding-top: 4.5rem; */
+        height: 32vh;
+        background-position:100% 100%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        opacity: 0.6;
+    }
+
+    #mainSlideThree {
+        height: 32vh;
+        background-position:100% 100%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        opacity: 0.6;
+    }
+
+
+            #sobh{background-color: blue;}
+
+            #mainHeadingOne{
+                font-size: 1rem;
+                margin-left:-10.5%;
+                letter-spacing: 1.2px;
+            }
+
+            #mainHeading{
+                font-size: 1rem;
+                letter-spacing: 1.5px;
+            }
+            #mainParagraph {
+                font-size: 1.2rem;
+                letter-spacing: 1.5px;
+            }
+
+            #mainCaption {
+                transform: translateY(-10%);
+                bottom: 0;
+                top: 50%;
+              }
+
+              #subCarousel{
+                margin-bottom: 9.3%;
+                /* margin-top:0px; */
+            }
+
+            #serv {
+                /* margin-bottom: 2.5rem; */
+                flex-direction: column;
+                text-align: center;
+            }
+
+            #servo {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            #serviceImage {
+                margin-top: 1rem;
+                margin-bottom: 0.4rem;
+            }
+    
+            
+            #advisoryBoard{
+                margin-left: 4.2rem;
+            }
+
+             #executiveBoard{
+                margin-left: -0.7rem;
+            }
+
+            /* #projoImg{ */
+                /* margin-right:4rem; */
+            /* }    */
+
+            #advisiorysText{
+                margin-left:1.5rem;
+            }
+        }
+
+        /* Iphone 6/7/8 plus */
+@media (min-width:414px) {
+     
+    #aboutUsText{
+        font-size:1rem;
+    }
+
+
+    #subSliderOne{
+        height:40vh;
+    }
+    #subSliderTwo{
+        height:40vh;
+    }
+    #subSliderThree{
+        height:40vh;
+    }
+
+    #mainSlideOne {
+        height: 38vh;
+        background-position:100% 100%;
+        background-size: contain;
+        background-repeat:no-repeat;
+        /* background-position:center;  */
+        opacity:0.6;
+    }
+
+    #mainSlideTwo {
+        /* padding-top: 4.5rem; */
+        height: 38vh;
+        background-position:100% 100%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        opacity: 0.6;
+    }
+
+    #mainSlideThree {
+        height: 38vh;
+        background-position:100% 100%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        opacity: 0.6;
+    }
+   
+    #serviceImage {
+        margin-top: 1rem;
+        margin-bottom: 0.4rem;
+    }
+
+    #serv{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #servo {
+        flex-direction: column;
+        text-align:center;
+    }
+
+    
+    #advisoryBoard{
+        margin-left: 4.2rem;
+    }
+
+    /* #executiveBoard{
+        margin-left: 3.5rem;
+    }
+
+    #projoImg{
+        margin-right:4rem;
+    }   */
+    #advisiorysText{
+        margin-left:1.5rem;
+    }
+}
+
+
+        @media (min-width:568px) {
+     
+            #aboutUsText{
+                font-size:1.2rem;
+            }
+
+            #subSliderOne{
+                height:60vh;
+            }
+            #subSliderTwo{
+                height:60vh;
+            }
+            #subSliderThree{
+                height:60vh;
+            }
+
+            #mainSlideOne {
+                padding-top: 3.5rem;
+                height: 100vh;
+            }
+        
+            #mainSlideTwo {
+                padding-top: 3.5rem;
+                height: 100vh;
+            }
+        
+            #mainSlideThree {
+                padding-top: 3.5rem;
+                height: 100vh;
+            }
+
+
+
+            #serviceImage{
+                margin-top: 2rem;
+                margin-left:2.5rem;
+            }
+
+            #serv {
+                flex-direction: row;
+                text-align:initial;
+            }
+
+            #servo {
+                flex-direction: row;
+                text-align:initial;
+            }
+
+            
+            #advisoryBoard{
+                margin-left: 9.2rem;
+            }
+
+             #executiveBoard{
+                margin-left: 1.9rem;
+            }
+
+            /* #projoImg{ */
+                /* margin-right:4rem; */
+            /* }    */
+            #advisiorysText{
+                margin-left:1.5rem;
+            }
+        }
+
+        @media (min-width:640px){
+            #sobh{background-color: blue;}
+        
+             
+
+            
+            #serviceImage{
+                margin-top: 2rem;
+                        }
+        
+            #serv {
+                flex-direction: row;
+                text-align: initial;
+            } 
+            
+            #servo {
+                flex-direction: row;
+                text-align: initial;
+            }
+        
+           
+            #advisoryBoard{
+                margin-left: 0.2rem;
+            }
+
+            #executiveBoard{
+                margin-left: 0px;
+            }
+
+            #projoImg{
+                margin-right:4rem;
+            }     
+             
+            #advisiorysText{
+                margin-left:1.5rem;
+            }
+
+            }
+
+
+
+
+
+        /* IPad */
+        @media (min-width: 768px){
+            #sobh{background-color: blue;}
+
+            
+            #mainSlideOne {
+                height: 40vh;
+                /* width:100vw; */
+                /* background-position:center; */
+                background-size: contain;
+                background-repeat:no-repeat;
+                /* background-position:center;  */
+                opacity:0.6;
+            }
+        
+            #mainSlideTwo {
+                /* padding-top: 4.5rem; */
+                height: 40vh;
+                /* width:100vw; */
+                /* background-position:center; */
+                background-size: contain;
+                background-repeat: no-repeat;
+                opacity: 0.6;
+            }
+        
+            #mainSlideThree {
+                height: 40vh;
+                /* width:100vw; */
+                /* background-position:center; */
+                background-size: contain;
+                background-repeat: no-repeat;
+                opacity: 0.6;
+            }
+ 
+
+
+            #mainHeadingOne{
+                font-size: 2rem;
+                margin-left:-6%;
+            }
+
+            #mainHeading{
+                font-size: 2rem;
+            }
+
+            #mainCaption {
+                transform: translateY(-30%);
+                bottom: 0;
+                top: 50%;
+              }
+
+              #subCarousel{
+                /* margin-bottom: 9.3%; */
+                margin-top:10%;
+            }
+
+            #serviceImage{
+                /* margin-top: 2rem; */
+                margin-left:1rem;
+            }
+
+            
+            #serv {
+                flex-direction: row;
+                text-align:initial;
+            } 
+
+            #servo {
+                flex-direction: row;
+                text-align:initial;
+            }
+
+            
+            #advisoryBoard{
+                margin-left: 3.2rem;
+            }
+
+            #executiveBoard{
+                margin-left: 3.2rem;
+            }
+
+            #projoImg{
+                margin-right:5.5rem;
+            }
+            
+            #advisiorysText{
+                margin-left:1.5rem;
+            }
+
+        }
+
+
+    @media (min-width:991px){
+
+    }
+
+
+        /* ipad pro */
+        @media (min-width:961px) and (max-width: 1024px){
+            
+            #sobh{background-color: red;}
+
+
+             
+            #mainSlideOne {
+                height: 66vh;
+                /* width:100vw; */
+                /* background-position:center; */
+                background-size: contain;
+                background-repeat:no-repeat;
+                /* background-position:center;  */
+                opacity:0.6;
+            }
+        
+            #mainSlideTwo {
+                /* padding-top: 4.5rem; */
+                height: 66vh;
+                /* width:100vw; */
+                /* background-position:center; */
+                background-size: contain;
+                background-repeat: no-repeat;
+                opacity: 0.6;
+            }
+        
+            #mainSlideThree {
+                height: 66vh;
+                /* width:100vw; */
+                /* background-position:center; */
+                background-size: contain;
+                background-repeat: no-repeat;
+                opacity: 0.6;
+            }
+
+            #mainHeadingOne{
+                font-size: 2rem;
+                margin-left:0;
+            }
+
+            #mainHeading{
+                font-size: 2rem;
+            }
+
+            #mainCaption {
+                transform: translateY(-30%);
+                bottom: 0;
+                top: 50%;
+              }
+
+              
+            #serv {
+                flex-direction: row;
+                text-align: initial;
+            } 
+
+            #servo {
+                flex-direction: row;
+                text-align:initial;
+            }
+
+            
+            #advisoryBoard{
+                /* margin-left: 1rem; */
+            }
+
+            #executiveBoard{
+                margin-left: 9.5rem;
+            }
+
+            #projoImg{
+                margin-right:7rem;
+            }
+        
+        
+            #advisoryBoard{
+                margin-left: 1rem;
+            }
+
+            #advisiorysText{
+                margin-left:1.5rem;
+            }
+
+            #prijoText{
+                margin-left: -2.5rem;
+            }
+        }
+
+        @media (min-width:1025px){
+            
+            #mainSlideOne {
+                height: 80vh;
+                /* width:100vw; */
+                /* background-position:center; */
+                background-size: contain;
+                background-repeat:no-repeat;
+                /* background-position:center;  */
+                opacity:0.6;
+            }
+        
+            #mainSlideTwo {
+                /* padding-top: 4.5rem; */
+                height: 80vh;
+                /* width:100vw; */
+                /* background-position:center; */
+                background-size: contain;
+                background-repeat: no-repeat;
+                opacity: 0.6;
+            }
+        
+            #mainSlideThree {
+                height: 80vh;
+                /* width:100vw; */
+                /* background-position:center; */
+                background-size: contain;
+                background-repeat: no-repeat;
+                opacity: 0.6;
+            }
+
+            #sobh{background-color: red;}
+
+            #prijoText{
+                margin-left: -2.5rem;
+            }
+        }
+
+        @media (max-width: 1199.98px) {
+            #prijoName{
+                margin-left: -2.5rem;
+            }
+            
+
+
+
+
+        }
+
+        @media (min-width:1281px){
+            #sobh{background-color: red;}
+
+            #mainSlideOne {
+                height: 100vh;
+                /* width:100vw; */
+                /* background-position:center; */
+                background-size: contain;
+                background-repeat:no-repeat;
+                /* background-position:center;  */
+                opacity:0.6;
+            }
+        
+            #mainSlideTwo {
+                /* padding-top: 4.5rem; */
+                height: 100vh;
+                /* width:100vw; */
+                /* background-position:center; */
+                background-size: contain;
+                background-repeat: no-repeat;
+                opacity: 0.6;
+            }
+        
+            #mainSlideThree {
+                height: 100vh;
+                /* width:100vw; */
+                /* background-position:center; */
+                background-size: contain;
+                background-repeat: no-repeat;
+                opacity: 0.6;
+            }
+
+            #prijoName{
+                margin-left: -2.5rem;
+            }
+
+        }
+
+        @media (min-width:1366px){
+ 
+            #mainSlideOne {
+                height: 102.5vh;
+                /* width:100vw; */
+                /* background-position:center; */
+                background-size: contain;
+                background-repeat:no-repeat;
+                /* background-position:center;  */
+                opacity:0.6;
+            }
+        
+            #mainSlideTwo {
+                /* padding-top: 4.5rem; */
+                height: 102.5vh;
+                /* width:100vw; */
+                /* background-position:center; */
+                background-size: contain;
+                background-repeat: no-repeat;
+                opacity: 0.6;
+            }
+        
+            #mainSlideThree {
+                height: 102.5vh;
+                /* width:100vw; */
+                /* background-position:center; */
+                background-size: contain;
+                background-repeat: no-repeat;
+                opacity: 0.6;
+            }
+
+
+             
+
+            #advisoryBoard{
+                margin-left: 5rem;
+            }
+
+            #executiveBoard{
+                margin-left: 15.5rem;
+            }
+
+            #projoImg{
+                margin-right:7rem;
+            }
+            #prijoName{
+                margin-left: -4.5rem;
+            }
+            #advisiorysText{
+                margin-left:1.5rem;
+            }
+
+        }
+
+        .toast-title {
+            font-weight: bold;
+        }
+        .toast-message {
+            word-wrap: break-word;
+        }
+        .toast-message a,
+        .toast-message label {
+            color: #FFFFFF;
+        }
+        .toast-message a:hover {
+            color: #CCCCCC;
+            text-decoration: none;
+        }
+        .toast-close-button {
+            position: relative;
+            right: -0.3em;
+            top: -0.3em;
+            float: right;
+            font-size: 20px;
+            font-weight: bold;
+            color: #FFFFFF;
+            -webkit-text-shadow: 0 1px 0 #ffffff;
+            text-shadow: 0 1px 0 #ffffff;
+            opacity: 0.8;
+        }
+        .toast-close-button:hover,
+        .toast-close-button:focus {
+            color: #000000;
+            text-decoration: none;
+            cursor: pointer;
+            opacity: 0.4;
+        }
+        /*Additional properties for button version
+         iOS requires the button element instead of an anchor tag.
+         If you want the anchor version, it requires `href="#"`.*/
+        button.toast-close-button {
+            padding: 0;
+            cursor: pointer;
+            background: transparent;
+            border: 0;
+            -webkit-appearance: none;
+        }
+        .toast-top-center {
+            top: 0;
+            right: 0;
+            width: 100%;
+        }
+        .toast-bottom-center {
+            bottom: 0;
+            right: 0;
+            width: 100%;
+        }
+        .toast-top-full-width {
+            top: 0;
+            right: 0;
+            width: 100%;
+        }
+        .toast-bottom-full-width {
+            bottom: 0;
+            right: 0;
+            width: 100%;
+        }
+        .toast-top-left {
+            top: 12px;
+            left: 12px;
+        }
+        .toast-top-right {
+            top: 12px;
+            right: 12px;
+        }
+        .toast-bottom-right {
+            right: 12px;
+            bottom: 12px;
+        }
+        .toast-bottom-left {
+            bottom: 12px;
+            left: 12px;
+        }
+        #toast-container {
+            pointer-events: none;
+            position: fixed;
+            z-index: 99999;
+        }
+        #toast-container * {
+            -moz-box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+        #toast-container > div {
+            position: relative;
+            overflow: hidden;
+            margin: 0 0 6px;
+            padding: 15px 15px 15px 50px;
+            width: 300px;
+            -moz-border-radius: 3px 3px 3px 3px;
+            -webkit-border-radius: 3px 3px 3px 3px;
+            border-radius: 3px 3px 3px 3px;
+            background-position: 15px center;
+            background-repeat: no-repeat;
+            -moz-box-shadow: 0 0 12px #999999;
+            -webkit-box-shadow: 0 0 12px #999999;
+            box-shadow: 0 0 12px #999999;
+            color: #FFFFFF;
+            opacity: 0.8;
+        }
+        
+        #toast-container > div.toast-custom {
+            padding: 15px;
+            color: #030303;
+        }
+        
+        #toast-container > div.toast-custom .toast-close-button {
+            color: #999999 !important;
+        }
+        
+        #toast-container > :hover {
+            -moz-box-shadow: 0 0 12px #000000;
+            -webkit-box-shadow: 0 0 12px #000000;
+            box-shadow: 0 0 12px #000000;
+            opacity: 1;
+            cursor: pointer;
+        }
+        #toast-container > .toast-info {
+            background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGwSURBVEhLtZa9SgNBEMc9sUxxRcoUKSzSWIhXpFMhhYWFhaBg4yPYiWCXZxBLERsLRS3EQkEfwCKdjWJAwSKCgoKCcudv4O5YLrt7EzgXhiU3/4+b2ckmwVjJSpKkQ6wAi4gwhT+z3wRBcEz0yjSseUTrcRyfsHsXmD0AmbHOC9Ii8VImnuXBPglHpQ5wwSVM7sNnTG7Za4JwDdCjxyAiH3nyA2mtaTJufiDZ5dCaqlItILh1NHatfN5skvjx9Z38m69CgzuXmZgVrPIGE763Jx9qKsRozWYw6xOHdER+nn2KkO+Bb+UV5CBN6WC6QtBgbRVozrahAbmm6HtUsgtPC19tFdxXZYBOfkbmFJ1VaHA1VAHjd0pp70oTZzvR+EVrx2Ygfdsq6eu55BHYR8hlcki+n+kERUFG8BrA0BwjeAv2M8WLQBtcy+SD6fNsmnB3AlBLrgTtVW1c2QN4bVWLATaIS60J2Du5y1TiJgjSBvFVZgTmwCU+dAZFoPxGEEs8nyHC9Bwe2GvEJv2WXZb0vjdyFT4Cxk3e/kIqlOGoVLwwPevpYHT+00T+hWwXDf4AJAOUqWcDhbwAAAAASUVORK5CYII=") !important;
+        }
+        #toast-container > .toast-error {
+            background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHOSURBVEhLrZa/SgNBEMZzh0WKCClSCKaIYOED+AAKeQQLG8HWztLCImBrYadgIdY+gIKNYkBFSwu7CAoqCgkkoGBI/E28PdbLZmeDLgzZzcx83/zZ2SSXC1j9fr+I1Hq93g2yxH4iwM1vkoBWAdxCmpzTxfkN2RcyZNaHFIkSo10+8kgxkXIURV5HGxTmFuc75B2RfQkpxHG8aAgaAFa0tAHqYFfQ7Iwe2yhODk8+J4C7yAoRTWI3w/4klGRgR4lO7Rpn9+gvMyWp+uxFh8+H+ARlgN1nJuJuQAYvNkEnwGFck18Er4q3egEc/oO+mhLdKgRyhdNFiacC0rlOCbhNVz4H9FnAYgDBvU3QIioZlJFLJtsoHYRDfiZoUyIxqCtRpVlANq0EU4dApjrtgezPFad5S19Wgjkc0hNVnuF4HjVA6C7QrSIbylB+oZe3aHgBsqlNqKYH48jXyJKMuAbiyVJ8KzaB3eRc0pg9VwQ4niFryI68qiOi3AbjwdsfnAtk0bCjTLJKr6mrD9g8iq/S/B81hguOMlQTnVyG40wAcjnmgsCNESDrjme7wfftP4P7SP4N3CJZdvzoNyGq2c/HWOXJGsvVg+RA/k2MC/wN6I2YA2Pt8GkAAAAASUVORK5CYII=") !important;
+        }
+        #toast-container > .toast-success {
+            background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADsSURBVEhLY2AYBfQMgf///3P8+/evAIgvA/FsIF+BavYDDWMBGroaSMMBiE8VC7AZDrIFaMFnii3AZTjUgsUUWUDA8OdAH6iQbQEhw4HyGsPEcKBXBIC4ARhex4G4BsjmweU1soIFaGg/WtoFZRIZdEvIMhxkCCjXIVsATV6gFGACs4Rsw0EGgIIH3QJYJgHSARQZDrWAB+jawzgs+Q2UO49D7jnRSRGoEFRILcdmEMWGI0cm0JJ2QpYA1RDvcmzJEWhABhD/pqrL0S0CWuABKgnRki9lLseS7g2AlqwHWQSKH4oKLrILpRGhEQCw2LiRUIa4lwAAAABJRU5ErkJggg==") !important;
+        }
+        #toast-container > .toast-warning {
+            background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGYSURBVEhL5ZSvTsNQFMbXZGICMYGYmJhAQIJAICYQPAACiSDB8AiICQQJT4CqQEwgJvYASAQCiZiYmJhAIBATCARJy+9rTsldd8sKu1M0+dLb057v6/lbq/2rK0mS/TRNj9cWNAKPYIJII7gIxCcQ51cvqID+GIEX8ASG4B1bK5gIZFeQfoJdEXOfgX4QAQg7kH2A65yQ87lyxb27sggkAzAuFhbbg1K2kgCkB1bVwyIR9m2L7PRPIhDUIXgGtyKw575yz3lTNs6X4JXnjV+LKM/m3MydnTbtOKIjtz6VhCBq4vSm3ncdrD2lk0VgUXSVKjVDJXJzijW1RQdsU7F77He8u68koNZTz8Oz5yGa6J3H3lZ0xYgXBK2QymlWWA+RWnYhskLBv2vmE+hBMCtbA7KX5drWyRT/2JsqZ2IvfB9Y4bWDNMFbJRFmC9E74SoS0CqulwjkC0+5bpcV1CZ8NMej4pjy0U+doDQsGyo1hzVJttIjhQ7GnBtRFN1UarUlH8F3xict+HY07rEzoUGPlWcjRFRr4/gChZgc3ZL2d8oAAAAASUVORK5CYII=") !important;
+        }
+        #toast-container.toast-top-center > div,
+        #toast-container.toast-bottom-center > div {
+            width: 300px;
+            margin: auto;
+        }
+        #toast-container.toast-top-full-width > div,
+        #toast-container.toast-bottom-full-width > div {
+            width: 96%;
+            margin: auto;
+        }
+        .toast {
+            background-color: #FFFFFF;
+            pointer-events: auto;
+        }
+        .toast-success {
+            background-color: #51A351;
+        }
+        .toast-error {
+            background-color: #BD362F;
+        }
+        .toast-info {
+            background-color: #2F96B4;
+        }
+        .toast-warning {
+            background-color: #F89406;
+        }
+        
+        .toast-progress {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            height: 4px;
+            background-color: #000000;
+            opacity: 0.4;
+        }
+        
+        /*Responsive Design*/
+        @media all and (max-width: 240px) {
+            #toast-container > div {
+                padding: 8px 8px 8px 50px;
+                width: 11em;
+            }
+            #toast-container .toast-close-button {
+                right: -0.2em;
+                top: -0.2em;
+            }
+        }
+        @media all and (min-width: 241px) and (max-width: 480px) {
+            #toast-container > div {
+                padding: 8px 8px 8px 50px;
+                width: 18em;
+            }
+            #toast-container .toast-close-button {
+                right: -0.2em;
+                top: -0.2em;
+            }
+        }
+        @media all and (min-width: 481px) and (max-width: 768px) {
+            #toast-container > div {
+                padding: 15px 15px 15px 50px;
+                width: 25em;
+            }
+        }

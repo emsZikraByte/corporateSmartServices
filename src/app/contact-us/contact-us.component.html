@@ -1,0 +1,221 @@
+
+<!-- Contact Us Form -->
+<!--Section: Contact v.2-->
+<section class="section" style="padding-top: 4rem;">
+ 
+
+
+
+  <div class="container card shadow-lg mb-5 p-5">
+  <!--Section heading-->
+  <h2 class="text-center mb-5 mt-0 lead" style="font-weight:300; font-size:2.5rem;">Contact Us</h2>
+  <!--Section description-->
+    
+
+
+
+   
+
+  <p class="text-center w-responsive mx-auto mb-5 lead" style="font-weight:340;">Still have questions? Want to enquire more about what we do? Do not hesitate to give us a ring, or just leave us a message down below!</p>
+
+  <div class="row">
+
+      <!--Grid column-->
+      <div class="col-md-7 mb-md-0 mb-5">
+          <form #f="ngForm" (ngSubmit)="f.reset()" id="f" class="form">
+
+              <!--Grid row-->
+              <div class="row mb-md-2">
+
+                  <!--Grid column-->
+                  <div class="col-md-6">
+                      <div class="md-form mb-0">
+                          <input type="text" placeholder="Your Name" name="name" [(ngModel)]="name" #userName="ngModel" 
+                                required minlength="4" maxlength="15"  
+                                pattern="^[a-zA-Z\s-]+$"   
+                                class="form-control p-2 my-3">
+                                <div class="alert alert-danger p-1" *ngIf="!userName.valid && userName.touched">
+                                    
+                                        <div *ngIf="userName.errors.required">Your Name Is Required </div>
+                                        <div *ngIf="userName.errors.minlength">Name should be minimum of 4 characters</div>
+                                        <div *ngIf="userName.errors.maxlength">Name shouldn't exceed 15 characters</div>
+                                        <div *ngIf="userName.errors.pattern">Enter Valid Name </div>    
+                                    </div>
+                    
+                      </div>
+                  </div>
+                  <!--Grid column-->
+
+                  <!--Grid column-->
+                  <div class="col-md-6">
+                      <div class="md-form mb-0">
+                          <input type="email" placeholder="Enter your Email" name="email" [(ngModel)]="email" #userEmail="ngModel" 
+                          required  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" class="form-control p-2 my-3">
+
+                          <div class="alert alert-danger p-1" *ngIf="!userEmail.valid && userEmail.touched">
+
+                               <div *ngIf="userEmail.errors.required">Your Email Is Required </div>
+                               <div *ngIf="userEmail.errors.pattern">Haven't matched with email pattern</div>
+
+                          </div>
+                        
+                      </div>
+                  </div>
+                  <!--Grid column-->
+
+              </div>
+              <!--Grid row-->
+
+              <!--Grid row-->
+              <div class="row">
+                  <div class="col-md-12 mb-md-2">
+                      <div class="md-form mb-0">
+                          <input type="text" placeholder="Add Your Event" name="eventName" [(ngModel)]="event" #eventName="ngModel" 
+                          required minlength="4" maxlength="15" 
+                          class="p-2 my-3 form-control">
+
+                          <div class="alert alert-danger p-1" *ngIf="!eventName.valid && eventName.touched">
+
+                                <div *ngIf="eventName.errors.required">Event Name Is Required </div>
+                                <div *ngIf="eventName.errors.minlength">Event name should be minimum of 4 characters</div>
+                                <div *ngIf="eventName.errors.maxlength">Event name should be maximum of 15 characters</div>
+ 
+                           </div>
+                          
+                      </div>
+                  </div>
+              </div>
+              <!--Grid row-->
+
+              <!--Grid row-->
+              <div class="row mb-md-4">
+
+                  <!--Grid column-->
+                  <div class="col-md-12">
+
+                      <div class="md-form">
+                          <input type="text" placeholder="Say Something About Your Event" 
+                          name="eventDescription" [(ngModel)]="description" #eventDescription="ngModel" 
+                          required minlength="4" maxlength="100"
+                         class="form-control md-textarea pt-3 pb-5 p-2 my-3">
+
+                          <div class="alert alert-danger p-1" *ngIf="!eventDescription.valid && eventDescription.touched">
+
+                                <div *ngIf="eventDescription.errors.required">Event Description Is Required </div>
+                                <div *ngIf="eventDescription.errors.minlength">Event Description should be minimum of 4 characters</div>
+                                <div *ngIf="eventDescription.errors.maxlength">Description is limited to 100 characters</div>
+ 
+                           </div>
+                          
+                      </div>
+
+                  </div>
+              </div>
+              <!--Grid row-->
+
+         
+
+          <div class="text-center text-md-left">
+              <button type="button" [disabled]="!f.valid" (click)="sendEmail(f)"
+              class="btn btn-primary btn-md" style="font-weight:600;">Send</button>
+          </div>
+
+
+        </form>
+        
+        <div class="lds-spinner text-center" *ngIf="isSending"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-md-5 text-center">
+          <ul class="list-unstyled mb-0">
+              <li><i class="fa fa-map-marker fa-2x" style="color:rgb(0,116, 194)"></i>
+                  <p class="text-sm text-bold text-center"> Corporate Smart Services.
+                        Door No. 11, Third Floor
+                        Gokul Krishna Nilayam No. -36 ,
+                        Hemavathy Layout , Bettadasanapura ,
+                        Electronic City, Bengaluru-560068</p>  
+                        <p><a href="tel:+91 9611124630" data-rel="external" class="text-sm p-0">Mob: +91 9611124630</a></p>    
+                    <p class="text-bold lead" style="font-weight:400;">Kerala Office:</p>
+                   <p class="text-sm" style="line-height:0.7px;">Corporate Smart Services</p> <p class="text-sm">OPP. Ponneth Temple</p>
+                    <p class="text-sm"style="line-height:0.7px;">Kadavanthra P O - Cochin-20</p>
+                    <!-- Tel : 0484 4039997 -->
+                    <p><a href="tel:+91 9946105997" data-rel="external" class="text-sm">Mob: +91 9946105997</a></p>
+                   <p> <a href="tel:0484 4039997" data-rel="external" class="text-sm">TEL: 0484 4039997</a> </p>    
+              </li>
+
+              <!-- <li><i class="fa fa-phone mt-4 fa-2x" style="color:rgb(0,116, 194);"></i> -->
+                 
+                   <!-- <p><a href="tel:+91 9611124630" data-rel="external" class="text-sm p-0">Mob: +91 9611124630</a></p> -->
+                  <!-- <p><a href="tel:+91 9946105997" data-rel="external" class="text-sm">Mob: +91 9946105997</a></p> 
+                 <p> <a href="tel:0484 4039997" data-rel="external" class="text-sm">TEL: 0484 4039997</a> </p>   -->
+              <!-- </li> -->
+
+              <li><i class="fa fa-envelope mt-4 fa-2x" style="color:rgb(0,116, 194)"></i>
+                 <p><a href="mailto:vrn.office@gmail.com" data-rel="external" class="lead">vrn.office@gmail.com</a></p>
+              </li>
+          </ul>
+      </div>
+      <!--Grid column-->
+
+  </div>
+</div>
+
+</section>
+<!--Section: Contact v.2-->
+
+<section>
+    <div class="container card shadow-lg">
+    <!-- <div class="row">    
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2312.993449971165!2d77.63366254243748!3d12.844839435114805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae14b065c2fc2f%3A0x6a6df7e25f7df260!2sCevex+-+Corporate+Events+Expert!5e0!3m2!1sen!2sin!4v1533886572437" style="border:4px solid #fff; width:100%; height:400px;"  allowfullscreen></iframe>
+    </div>  -->
+    <div class="row"> 
+      <agm-map style="margin: 0px 0px 8px 0px;" [latitude]="11.4306629" [longitude]="78.0355937" [zoom]="7"
+      [disableDefaultUI]="true"
+      [zoomControl]="false">
+      <agm-marker 
+      [latitude]="9.9643891"
+      [longitude]="76.3063757">
+    
+      <agm-info-window [disableAutoPan]="true">
+          
+        <p class="text-center"> 
+            <span class="pb-3 text-lg">
+              <strong style="font-weight: 600; font-size: 1rem; margin-bottom:1rem;"> 
+                Corporate Smart Services
+              </strong>
+            </span>
+            <br> 
+            OPP. Ponneth Temple Kadavanthra, <br> P O-Cochin-20, Kerala. 
+        </p>
+
+       </agm-info-window>
+
+     </agm-marker>  
+      <agm-marker 
+                     [latitude]="12.8449795"
+                     [longitude]="77.6325266">
+        <agm-info-window [disableAutoPan]="false">
+          
+         <p class="text-center"> 
+             <span class="pb-3 text-lg">
+               <strong style="font-weight: 600; font-size: 1rem; margin-bottom:1rem;"> 
+                 Corporate Smart Services
+               </strong>
+             </span>
+             <br> 
+              Door No. 11, Third Floor Gokul Krishna Nilayam No. -36 , 
+             <br> 
+                  Hemavathy Layout , Bettadasanapura , 
+            <br> Electronic City, Bengaluru.</p>
+
+        </agm-info-window>
+    </agm-marker>
+      
+      </agm-map> 
+    </div>   
+
+    </div>
+</section>

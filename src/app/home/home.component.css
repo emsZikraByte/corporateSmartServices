@@ -1,0 +1,153 @@
+#home-heading {
+    /* position: relative; (commenting it solved issue)*/ 
+    overflow-x:hidden;
+    min-height: 300px;
+    background-image: url('../../assets/images/3.jpg') !important;
+    background-attachment: fixed !important;
+    background-size: cover; 
+    /* contain and cover had issues, so used 100% */
+    background-repeat: no-repeat;
+    /* background-position:0 -300px; */
+    text-align: center;
+    color: #fff;
+    opacity: 0.88;
+    background-color: black;
+}
+
+
+/* #info {
+
+} */
+
+.dark-overlay{
+    position: absolute;
+    /* background-color:#000;  */
+    /* top: 0;
+    left: 0; */
+    width: 100%;
+    height: 100%; 
+}
+
+.dark-overlay p{
+  font-weight: 350;
+}
+
+.quotationMark{
+  font-size: 1.5rem;
+  font-weight: 500;
+  /* padding: 10%; */
+}
+
+/* Image effect for scaling start */
+  /* #wrap:hover {
+    transform: scale(0.75);
+    -webkit-transform: scale(0.75);
+    transition: 0.25s ease;
+  }
+
+  #wrap {
+    position: relative;
+    transition: 0.25s ease;
+    background: red; */
+    /* remove this colour, this is just to help show the div shrinking*/
+    /* width: 292px; */
+    /* this needs to be defined */
+    /* height: 291px;
+  } */
+
+
+  /* @-webkit-keyframes fade {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  } */
+
+  
+
+  /* img.imgRight{
+      position: absolute;
+      left: 0px;
+      -webkit-transition: opacity 1s ease-in-out;
+      -webkit-animation: fade 5s infinite;
+      transition: 0.25s ease;
+    
+  } */
+
+  
+
+  /* @-webkit-keyframes fade {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  } */
+  
+/* IMage effect for scaling ending */
+
+/* #gallery .col-md-4{
+background-color:#000 ;
+} */
+
+#gallery img {
+    /* opacity: 0.9; */
+    /* transform: scale(1); */
+    /* overflow: hidden; */
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    /* transition: transform 0.5s, opacity 0.5s; */
+}
+
+/* Gallery */
+/* #gallery img:hover { */
+    /* transform: scale(1.07); */
+    /* opacity: 1; */
+/* } */
+
+
+                                
+                            
+/* footer                                 */
+
+
+
+
+  /*  footer font-awesomeIcon Grow */
+  .hvr-icon-pulse-grow {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  }
+
+  .hvr-icon-pulse-grow {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+  }
+
+  .hvr-icon-pulse-grow:hover {
+    -webkit-animation-name: hvr-icon-pulse-grow;
+    animation-name: hvr-icon-pulse-grow;
+    -webkit-animation-duration: 0.3s;
+    animation-duration: 0.3s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+  }

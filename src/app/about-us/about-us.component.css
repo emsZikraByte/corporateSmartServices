@@ -1,0 +1,145 @@
+/* #home-icons{
+    border-top: 4px solid yellow; */
+    /* padding-top: 10%; */
+    /* margin-top: -4%;
+    padding-top: 0;
+}
+
+#cf {
+    position:relative;
+    margin:0 auto;
+}
+#cf img {
+    position:absolute;
+    left:0;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+    transition: 0.25s ease;
+}
+#cf img.top {
+    -webkit-transition: opacity 1s ease-in-out;
+    -webkit-animation: fade 5s infinite;
+    transition: 0.25s ease;
+}
+@-webkit-keyframes fade { */
+    /* 0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+} */
+
+.lead{
+/* letter-spacing: 0.05rem; */
+/* line-height: 2; */
+/* font-weight: 400; */
+/* font-family:  */
+}
+.aboutUs{
+    margin-top: -20px;
+}
+
+.carousel-caption {
+    transform: translateY(-50%);
+    bottom: 0;
+    top: 60%;
+  }
+
+.quotationMarks{
+font-size: 1rem;
+font-weight: 400;
+}
+
+.knowmore {
+    color: #fff;
+    /* padding-left: -3rem; */
+    font-size: 0.8rem;
+    /* font-weight: 400; */
+    
+    transition: all 0.5s ease-in;    
+}
+
+.knowmore:hover {
+color: rgb(193,0, 37);
+cursor: pointer;
+/* transform:translateY(-2px); */
+/* border-bottom: 0.5px solid white; */
+}
+
+#home-icons h4{
+    /* text-transform:uppercase; */
+    /* font-size: 28px; */
+    font-weight: 300;
+    letter-spacing: 1.4px;
+    color: rgb(0,55, 113);
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+
+
+.read-more-state {
+    display: none;
+  }
+  
+  .read-more-target {
+    opacity: 0;
+    max-height: 0;
+    font-size: 0;
+    transition: all .5s ease-out;
+  }
+  
+  .read-more-state:checked ~ .read-more-wrap .read-more-target {
+    opacity: 1;
+    font-size: inherit;
+    max-height: 999em;
+  }
+  
+  .read-more-state ~ .read-more-trigger:before {
+    /* display: inline;   */
+    border-bottom:1px solid #fff; 
+    content: 'know more';
+    transition: all 0.8s;
+    color: #fff;
+  }
+  
+
+  .read-more-state ~ .read-more-trigger:hover {
+    /* transform: translateY(-3px); */
+    /* border-bottom: 1px solid #fff; */
+    /* color: rgb(193,0, 37); */
+  }
+
+  .read-more-state:checked ~ .read-more-trigger:before {
+    content: 'show less';
+
+  }
+  
+  p {
+      display: inline;
+  }
+  .read-more-trigger {
+    cursor: pointer;
+    /* display: inline-block; */
+    /* padding: 0 .5em; */
+    color: #666;
+    font-size: .9em;
+    /* line-height: 2; */
+    /* border: 1px solid #ddd; */
+    /* border-radius: .25em; */
+  }
+
+
+  
+
+/* .lead{ */
+    /* font-weight: 400; */
+    /* line-height: 25px; */
+    /* word-spacing: 0px; */
+    /* font-style: normal; */
+    /* font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Arial, Helvetica, sans-serif, Arial; */
+/* } */

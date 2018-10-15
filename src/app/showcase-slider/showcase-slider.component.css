@@ -1,0 +1,141 @@
+/* carousel-item{
+    height: 450px;
+}
+
+#home-icons h3{
+ font-size: 18px;
+ font-weight: 700;
+
+}
+
+#home-icons img{
+    border:5px solid rgb(236, 236, 236);
+}
+
+#home-icons .card-body p{
+font-weight: 300px;
+}
+
+.carousel-item:after {
+    content:"";
+    display:block;
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background:rgba(0,0,0,0.3);
+  }
+
+  .carousel-inner img{
+      background-position: 0 -400px;
+  } */
+
+/* img{
+    opacity: 0.9;
+    background-color: #333;
+} */
+/* .carousel-image-1{
+    background:url('../../assets/images/event1.jpg');
+    background-size: cover;
+    
+} */
+
+/* .carousel-image-2{
+    background:url('../../assets/images/event2.jpg');
+    /* background-size: cover; */
+    
+/* }  */
+
+/* .carousel-image-3{
+    background:url('../../assets/images/event3.jpg');
+    background-size: cover;
+    
+} */
+
+
+
+
+
+/* Home Heading */
+
+.image {
+    height:100vh;
+    background-position:center;
+    background-size: cover;
+}
+
+ img{
+    height: 100vh;
+    opacity: 0.75;
+
+    width: 100%;
+    /* background-color: rgb(19, 16, 16); */
+    z-index:-1;
+    /* background-color: black; */
+}
+
+.carousel-inner {
+    background-color: rgba(0, 0, 0, .9);
+}
+
+.carousel-caption {
+    transform: translateY(-50%);
+    bottom: 0;
+    top: 60%;
+  }
+
+.btnRed{
+    background-color: rgb(56,155,194);
+}
+ 
+h2{
+    letter-spacing:1px;
+    font-weight:400;
+    font: size 2rem;
+    font-size:1.6rem; 
+}
+
+
+
+p {
+font-weight: 400;
+font-size: 1.5rem;
+}
+.carousel-indicators li {
+    border-radius: 12px;
+    width: 12px;
+    height: 12px;
+    /* background-color: #404040; */
+}
+
+.carousel-indicators li :active{
+    border-radius: 12px;
+    width: 12px;
+    height: 12px;
+    background-color: #fff;
+}
+
+
+/* .carousel-control-prev{ */
+/* background-color: black; */
+/* }  */
+
+/* .carousel-control-prev-icon{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: black; */
+    /* border: 1px solid black; */
+    /* border-radius: 50%;
+} */
+
+.carousel-control-next-icon{
+padding: 15px;
+}
+
+.carousel-control-prev-icon{
+    padding: 15px;
+    }
+
